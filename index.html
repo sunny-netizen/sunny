@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/90d8b3668a.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        /*div {
+            background-color: grey;
+            border: 5px solid black;
+        }*/
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 2% 5% 0% 5%;;
+        }
+
+        /* Responsive layout - 
+        @media (max-width: 800px) {
+            .flex-container {
+                flex-direction: column;
+            } makes a one column layout instead of a two-column layout */
+
+        .flex-item {
+            flex: 1;
+            margin: 2%
+        }
+
+        img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-item">
+            <h1>
+                Sunny Yun Zhao
+                <img src="sunlogo.png" alt="OSM Extraction." style="max-height: 1em;"></a>
+            </h1>
+            <h2>Past Projects</h2>
+        </div>
+
+        <div class="flex-item" style="display: flex; justify-content: flex-end;">
+            <a href="https://github.com/sunny-netizen" target="_blank" rel="noopener noreferrer" style="margin-right:1em">
+                <i class="fa fa-github" style="font-size:48px;"></i>
+            </a>
+            <a href="https://github.com/sunny-netizen" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:sunny.yun.zhao@gmail.com">
+                <i class="fa-regular fa-envelope" style="font-size:48px;"> ></i>
+            </a>
+        </div>
+
+
+        <!-- style="display: inline-block;"  https://colorhunt.co/palette/22a699f2be22f29727f24c3d-->
+
+
+    </div>
+
+    
+    <div class="flex-container">
+        <div class="flex-item"> <!--style="border: 5px solid lightcoral;"-->
+            <h3>Street Networks</h3>
+            <img src="allnodes.png" alt="OSM Extraction.">
+            <i>Street intersections of Europe extracted from OpenStreetMap.</i></a>
+            <p>OpenStreetMap is an open-source geographic database of the planet,
+                maintained through a volunteer-driven collaboration.</p>
+                
+                <p>It was a main data source for my
+                <a href="https://drive.google.com/file/d/1-b3OS6ndkVY3ApoPFUiPRAA1cJQ0YHWE/view?usp=sharing"> masters dissertation</a>, 
+                    where I evaluated the correspondence between hierarchical structure in the road network of Europe and human geography.</p>
+            <p>I <a href="https://sunny-netizen.github.io/osmnxdemo/">extracted</a> the the road system of Europe from OpenStreetMap with the Python library OSMnx,
+                modelled the road system as a network graph, implemented 
+                <a href="https://sunny-netizen.github.io/portfolio/html/london.html">percolation analysis</a>,
+                constructed a hierarchical tree<a href="https://sunny-netizen.github.io/portfolio/html/tree.html">(dendrogram)</a> from clusters,
+                conducted phenetic analysis, and analyzed correlational statistics. </p>
+        </div>
+
+        <div class="flex-item">
+            <h3>Creek to Ocean Plastics</h3>
+            <img src="green.png" alt="Sustainability Video."><i>Mapbox visualization of the Ballona Creek Watershed.</i></a>
+            <p>Ballona Creek is a channelized waterway running through 
+                southwestern Los Angeles County into the Pacific Ocean.</p>
+            <p>As a CivicSpark Fellow with the City of Culver City, I built capacity for
+                climate resilience and sustainability efforts, including:
+                <ul>
+                    <li>the Ballona Creek Revitalization Project</li>
+                    <li>City Ban On Single-Use Plastics</li>
+                    <li>Augmented Reality (AR) Stormwater Construction Educational Outreach</li>
+                  </ul>
+            </p>
+            <p>This experience inspired me to write a <a href="https://infogr8.com/sunny-zhao-local-governments-climate-action/">blog post</a>
+                I wrote on data and climate action in local government, including a
+                <a href="https://sunny-netizen.github.io/GHG/">Sankey Diagram</a>.</p>
+            <p>My local involvement continued with a local nonprofit, Ballona Creek Renaissance.
+                I created an Esri ArcGIS <a href="https://arcg.is/08iCWq">StoryMap</a> for their outreach
+                developed virtual drone footage for a 
+                <a href="https://www.ccusd.org/apps/video/watch.jsp?v=356882">watershed sustainability video</a> 
+                they funded.
+        </div>
+
+        <div class="flex-item">
+            <h3>Planets</h3>
+            <img src="button-exomap.png" alt="OSM Extraction."><i>Number of exoplanets orbiting host stars.</i></a>
+            <p>Exoplanets or extrasolar planets are planets that orbit stars beyond our solar system.</p>
+            <p>Inspired by star maps and my own experience with observing exoplanets,
+                I created a <a href="https://sunny-netizen.github.io/exomap/">map of exoplanets</a> 
+                using data from the NASA Exoplanet Archive. This map is intended for stargazers
+                wishing to know which stars are orbited by confirmed exoplanets.</p>
+            <p>The NASA Exoplanet Archive helped me again to make a 
+                <a href="https://sunny-netizen.github.io/midnightgospel/">version</a> of
+                Clancy's Multiverse Simulator from the TV show, Midnight Gospel.
+            </p>
+        </div>
+    </div>
+
+    <!--
+    <h2>Ongoing Projects</h2>
+    <div class="flex-container">
+        <div class="flex-item" style="border: 5px solid lightcoral;">
+            <p>
+                <a href="https://sunny-netizen.github.io/GLIMS/glims_notebooks/introglims.html">glaciers</a>
+            </p>
+        </div>
+    </div>-->
+
+
+</body>
+
+</html>
