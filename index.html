@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,126 +8,103 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono|Muli">
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
-        <div class="flex-item flex-container2a">
-            <div class="flex-item2a" style="width: 5em; margin-right: 1em;">
+        <div class="logo">
+            <figure>
                 <img src="sunlogo.png" alt="OSM Extraction." style="width: 100%;">
-                <figcaption style="font-size: xx-small; margin-left: 2em; color: yellow">SunCloud<br>TM</figcaption>
-            </div>
-            <div class="flex-item2a">
+                <figcaption style="font-size: xx-small; padding-left: 2em; color: yellow">SunCloud<br>TM</figcaption>
+            </figure>
+            <div class="name">
                 <h1>Sunny Yun Zhao</h1>
                 <h3 style="margin-top: -0.5em;">Spatial Data Analyst based in the Los Angeles area.</h3>
             </div>
         </div>
-        <div class="flex-item flex-container2b">
-            <a class="flex-item2b" href="https://github.com/sunny-netizen" target="_blank" rel="noopener noreferrer">
+        <div class="contact">
+            <a href="https://github.com/sunny-netizen" target="_blank" rel="noopener noreferrer">
                 <i class="fa fa-github"></i></a>
-            <a class="flex-item2b" href="mailto:sunny.yun.zhao@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:sunny.yun.zhao@gmail.com" target="_blank" rel="noopener noreferrer">
                 <i class="fa-regular fa-envelope"></i></a>
         </div>
     </header>
     <main>
-        <h2 style="margin: 0% 7%">Projects</h2><hr>
-        <p style="margin: 0% 0% 3% 7%;">Click on <span style="color: #FF9F29;">orange links</span> and
-            <a href=""><i class="fa-solid fa-code"></i></a> to explore projects and code.</p>
+        <h2>Projects</h2>
+        <hr>
+        <p>Click <span class="legend">links</span> and <a href=""><i class="fa-solid fa-code"></i></a>
+            to explore visualizations and code. Hover over
+            <i class="fa-solid fa-circle-info"></i> for definitions.
+        </p><br>
         <section>
             <article>
-                <h3>Street Networks</h3>
+                <h3>Cities and Road Networks</h3>
                 <img src="cityoflondon.png" alt="">
-                <figcaption><i>Street network of the City of London.</i></figcaption>
-                <p>OpenStreetMap is an open-source geographic database of the planet,
-                    maintained through a volunteer-driven collaboration.</p>
+                <figcaption><i>Street network of the City of London extracted from OpenStreetMap.</i></figcaption>
+                <!--<p>OpenStreetMap is an open-source geographic database of the planet,
+                    maintained through a volunteer-driven collaboration.</p> unsupervised machine learning.
+                <i class="fa-solid fa-code"></i> 
+            <i class="fa-solid fa-circle-info"></i>-->
+                <p> My <a href="https://drive.google.com/file/d/1-b3OS6ndkVY3ApoPFUiPRAA1cJQ0YHWE/view?usp=sharing"
+                        target="_blank"> masters dissertation</a> revealed weak relationships between
+                    hierarchical structure in the road network of Europe and human geography.</p>
 
-                <p>It was a main data source for my
-                    <a href="https://drive.google.com/file/d/1-b3OS6ndkVY3ApoPFUiPRAA1cJQ0YHWE/view?usp=sharing"
-                        target="_blank"> masters dissertation</a>
-                    <a href=""><i class="fa-solid fa-code"></i></a>,
-                    where I revealed weak relationships between hierarchical structure in the road network of
-                    Europe and human geographies by:
-                <ul>
-                    <li>Extracting the road system of Europe from OpenStreetMap as a network graph with
-                        <a href="https://sunny-netizen.github.io/osmnxdemo/">Python library OSMnx</a>
-                        <a href=""><i class="fa-solid fa-code"></i></a>.
-                    </li>
-                    <li>Detecting hierarchical clusters with
-                        <a href="https://sunny-netizen.github.io/portfolio/html/london.html" target="_blank">Percolation
-                            analysis</a>
-                        <a href=""><i class="fa-solid fa-code"></i></a>,
-                        a form of unsupervised machine learning.
-                    </li>
-                    <li>Constructing a <a href="https://sunny-netizen.github.io/portfolio/html/tree.html"
-                            target="_blank">dendrogram</a>
-                        <a href=""><i class="fa-solid fa-code"></i></a>
-                        from the clusters and conducting phenetic analysis.
-                    </li>
-                </ul>
+                <p>I <a href="https://sunny-netizen.github.io/osmnxdemo/">extracted</a> OpenStreetMap data as a network
+                    graph
+                    to conduct <a href="https://sunny-netizen.github.io/portfolio/html/london.html"
+                        target="_blank">percolation analysis</a>,
+                    then modelled the nested relationships of percolation clusters as a
+                    <a href="https://sunny-netizen.github.io/portfolio/html/tree.html" target="_blank">hierarchical
+                        tree</a> for phenetic analysis.
                 </p>
+
+
             </article>
             <article>
-                <h3>Creek to Ocean Plastics</h3>
+                <h3>Climate Resilience and Sustainability</h3>
                 <img src="green.png" alt="Sustainability Video.">
                 <figcaption><i>Mapbox visualization of the Ballona Creek Watershed.</i></figcaption>
-                <p>Ballona Creek is a channelized waterway running through
-                    southwestern Los Angeles County into the Pacific Ocean.</p>
-                <p>Climate resilience and sustainability were my focus
-                    as a CivicSpark Fellow with the City of Culver City. I built capacity for:
-                <ul>
-                    <li><a href="https://drive.google.com/file/d/1CUIFNosLYTTdVv5Hyr336JDj4J1zbEHc/view?usp=drive_link"
-                            target="_blank">Ballona Creek Revitalization Project</a>
-                        <a href=""><i class="fa-solid fa-code"></i></a>
-                    </li>
-                    <li>City Ban On Single-Use Plastics</li>
-                    <li>Augmented Reality (AR) Stormwater Construction Educational Outreach</li>
-                </ul>
+                <!--<p>Ballona Creek is a channelized waterway running through
+                    southwestern Los Angeles County into the Pacific Ocean.</p>-->
+                <p>As a CivicSpark Fellow with the City of Culver City, I built capacity for the
+                    <a href="https://drive.google.com/file/d/1CUIFNosLYTTdVv5Hyr336JDj4J1zbEHc/view?usp=drive_link"
+                        target="_blank">Ballona Creek Revitalization Project</a> and a City Ban On Single-Use Plastics.
+                    I have since <a href="https://infogr8.com/sunny-zhao-local-governments-climate-action/"
+                        target="_blank">written</a> about data and climate action in local government.
                 </p>
-                <p>Following this experience I created a
-                    <a href="https://infogr8.com/sunny-zhao-local-governments-climate-action/" target="_blank">blog
-                        post</a>
-                    on data and climate action in local government and a
-                    <a href="https://sunny-netizen.github.io/GHG/" target="_blank">Sankey Diagram</a>
-                    <a href=""><i class="fa-solid fa-code"></i></a>.
+
+                <p>Joining the Advisory Council of Ballona Creek Renaissance,
+                    I created an Esri ArcGIS <a href="https://arcg.is/08iCWq" target="_blank">StoryMap</a>
+                    for outreach and developed a map animation for an
+                    <a href="https://www.ccusd.org/apps/video/watch.jsp?v=356882" target="_blank">educational video</a>.
+
+            </article>
+            <article>
+                <h3>Stars and Planets</h3>
+                <img src="button-exomap.png" alt="OSM Extraction." target="_blank">
+                <figcaption><i>Number of exoplanets orbiting host stars.</i></figcaption>
+                <!--<p>Exoplanets or extrasolar planets are planets that orbit stars beyond our solar system.</p>-->
+                <p>Inspired by star maps,
+                    I created a <a href="https://sunny-netizen.github.io/exomap/" target="_blank">
+                        map of exoplanets</a> using data from the NASA Exoplanet Archive.</p>
+                <p>The same data source was used to create
+                    <a href="https://sunny-netizen.github.io/midnightgospel/" target="_blank">fictional worlds</a>
+                    based on <i>The Midnight Gospel</i>.
                 </p>
-                <p>My local involvement continued with Ballona Creek Renaissance, an environmental nonprofit.
-                    I created an Esri ArcGIS <a href="https://arcg.is/08iCWq" target="_blank">StoryMap</a> for their
-                    outreach
-                    developed virtual drone footage for a
-                    <a href="https://www.ccusd.org/apps/video/watch.jsp?v=356882" target="_blank">watershed
-                        sustainability video</a>
-                    <a href=""><i class="fa-solid fa-code"></i></a>.
             </article>
             <article>
                 <h3>Glaciers</h3>
                 <img src="glaciers.png" alt="OSM Extraction." target="_blank"><i></i></a>
-                <p><a href="https://sunny-netizen.github.io/GLIMS/glims_notebooks/introglims.html"
-                        target="_blank">Exploring</a>
-                    <a href=""><i class="fa-solid fa-code"></i></a>
+                <p>Currently <a
+                        href="https://sunny-netizen.github.io/GLIMS/glims_notebooks/introglims.html">exploring </a>
                     the GLIMS glacier dataset.
                 </p>
             </article>
-            <article>
-                <h3>Planets</h3>
-                <img src="button-exomap.png" alt="OSM Extraction." target="_blank">
-                <figcaption><i>Number of exoplanets orbiting host stars.</i></figcaption>
-                <p>Exoplanets or extrasolar planets are planets that orbit stars beyond our solar system.</p>
-                <p>Inspired by star maps,
-                    I created a <a href="https://sunny-netizen.github.io/exomap/" target="_blank">map of
-                        exoplanets</a>
-                    <a href=""><i class="fa-solid fa-code"></i></a>
-                    using data from the NASA Exoplanet Archive. This map is intended for stargazers
-                    wishing to know which stars are orbited by confirmed exoplanets.
-                </p>
-                <p>I used the same data source to create
-                    <a href="https://sunny-netizen.github.io/midnightgospel/" target="_blank">fictional worlds</a>
-                    <a href=""><i class="fa-solid fa-code"></i></a>
-                    based on <i>The Midnight Gospel</i>.
-                </p>
-            </article>
+            <article></article>
+            <article></article>
         </section>
     </main>
     <footer>
-        <h2 style="margin: 5% 7% 1% 7%;">Skills</h2>
+        <br><br>
+        <h2>Skills</h2>
         <hr>
         <p>Code: Python, R, SQL, JavaScript, D3 JS, Mapbox GL JS</p>
         <p>Software: Esri ArcGIS GIS Pro, QGIS, Tableau</p>
@@ -138,10 +114,11 @@
         <p>Complex Systems Modelling: Graph Networks, Agent-Based Modelling</p>
     </footer>
     <footer>
-        <h2 style="margin: 5% 7% 1% 7%;">Education</h2>
+        <h2>Education</h2>
         <hr>
-        <p>Spatial Data Science and Visualization, MSc, University College London</p>
-        <p>Anthropology, BA, Grinnell College</p>
+        <p>MSc Spatial Data Science and Visualization, University College London</p>
+        <p>BA Anthropology, Grinnell College</p>
     </footer>
 </body>
+
 </html>
