@@ -16,6 +16,10 @@ h1, .legend, a, a:hover, a:visited { /* Change the link color */
     color: #ecc100;
     font-weight: bolder;}
 
+h3 {
+    text-align: center;
+}
+
 a { /* Change the link color */
     text-decoration: none; /* Remove underlines by default */
     /*
@@ -69,7 +73,7 @@ header figure {
 }
 header a {
     font-size:xxx-large;
-    margin-left: 0.2em;
+    margin-left: 0.5em;
 }
 
 /* Main */
@@ -85,7 +89,7 @@ main section {
     gap: 5%;
 }
 main article {
-    flex: 1;
+    flex-grow: 1.5;
     flex-basis: calc(85%/3);
 }
 img {
