@@ -44,7 +44,7 @@ border: black 2px solid;
 border: white 2px solid;
 */
 
-/* Header */
+/* Header;*/
 header {
     display: flex;
     flex-direction: row;
@@ -56,24 +56,29 @@ header .logo {
     flex-direction: row;
     justify-content: flex-start;
     align-items: first baseline;
+    gap: 1em;
 }
 header .name {
-
 }
+header figure {
+    width: 5em; 
+    margin: 0%
+}
+
 header .contact {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: first baseline;
-}
-header figure {
-    width: 5em; 
-    margin: 0%;
-    margin-right: 1em;
+    gap: 1em;
 }
 header a {
-    font-size:xxx-large;
-    margin-left: 0.5em;
+    font-size: xxx-large;
+}
+@media screen and (max-width: 1000px) {
+    header a {
+        font-size: xx-large;
+    }
 }
 
 /* Main */
