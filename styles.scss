@@ -36,7 +36,7 @@ a:hover { /* Change link color on hover */
     text-decoration: underline;
 }
 hr {
-    border-color: $text-color:
+    border-color: $text-color;
 }
 p {
     font-size: larger;
@@ -52,7 +52,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5% 10%; /* top right bottom left */
 }
 header .logo {
     display: flex;
@@ -61,11 +60,8 @@ header .logo {
     align-items: first baseline;
     gap: 1em;
 }
-header .name {
-}
 header figure {
     width: 5em; 
-    margin: 0%
 }
 header .contact {
     display: flex;
@@ -84,7 +80,6 @@ header a {
 }
 
 /* Main */
-
 main {
     padding: 0% 10%; /* top right bottom left */
 }

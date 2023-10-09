@@ -7,7 +7,7 @@ html, body, h2 {
 body {
   font-family: "Muli";
   color: #B5FFE1;
-  background-color: #2d9cad; /*  #6C809A; #2D93AD;*/
+  background-color: #2d9cad /*  ; #6C809A; #2D93AD;*/
 }
 
 h1 {
@@ -17,6 +17,10 @@ h1 {
 h1, .legend, a, a:hover, a:visited { /* Change the link color */
   color: #ecc100;
   font-weight: bolder;
+}
+
+h2 {
+  text-align: center;
 }
 
 h3 {
@@ -54,15 +58,15 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 5% 10%; /* top right bottom left */
+  padding: 1% 2%; /* top right bottom left */
 }
 
 header .logo {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: first baseline;
-  gap: 1em;
+  /* align-items: first baseline; */
+  gap: 2em;
 }
 
 header figure {
@@ -89,7 +93,7 @@ header a {
 }
 /* Main */
 main {
-  padding: 0% 10%; /* top right bottom left */
+  padding: 2% 2%; /* top right bottom left */
 }
 
 main section {
@@ -106,13 +110,13 @@ main article {
 }
 
 img {
-  max-width: 100%;
-  border-radius: 25px;
+  width: 100%;
+  border-radius: 0px;
 }
 
 /* Footer */
 footer {
-  padding: 1% 10%; /* top right bottom left */
+  padding: 2% 2%; /* top right bottom left */
 }
 
 /*
