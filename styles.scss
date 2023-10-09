@@ -1,0 +1,134 @@
+/* Variables */
+$links-color: #ece000; 
+$text-color: #B5FFE1; 
+$back-color: #2d9cad; /*  #6C809A; #2D93AD;*/
+
+
+/* Global */
+html, body, h2 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Muli';
+    color: $text-color;
+    background-color: $back-color;
+}
+h1 {
+    font-family: 'Space Mono'; 
+}
+h1, .legend, a, a:hover, a:visited { /* Change the link color */
+    color: $links-color;
+    font-weight: bolder;}
+h3 {
+    text-align: center;
+}
+a { /* Change the link color */
+    text-decoration: none; /* Remove underlines by default */
+    /*
+            background-color: #090909;
+            border-radius: 10px;
+            padding: 2px 5px;
+            font-weight: bolder;
+            */    
+}
+a:hover { /* Change link color on hover */
+    text-decoration: underline;
+}
+hr {
+    border-color: $text-color:
+}
+p {
+    font-size: larger;
+}
+
+/*
+border: black 2px solid;
+border: white 2px solid;
+*/
+
+/* Header;*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5% 10%; /* top right bottom left */
+}
+header .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: first baseline;
+    gap: 1em;
+}
+header .name {
+}
+header figure {
+    width: 5em; 
+    margin: 0%
+}
+header .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: first baseline;
+    gap: 1em;
+}
+header a {
+    font-size: xxx-large;
+}
+@media screen and (max-width: 1000px) {
+    header a {
+        font-size: xx-large;
+    }
+}
+
+/* Main */
+
+main {
+    padding: 0% 10%; /* top right bottom left */
+}
+main section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5%;
+}
+main article {
+    flex-grow: 1.5;
+    flex-basis: calc(85%/3);
+}
+img {
+    max-width: 100%;
+    border-radius: 25px;
+}
+
+/* Footer */
+footer {
+    padding: 1% 10%; /* top right bottom left */
+}
+
+
+
+
+
+/*
+        https://colorhunt.co/palette/0000001a4d2eff9f29faf3e3
+        #FAF3E3;  #1A4D2E;  #FF9F29; #000000;
+        https://coolors.co/090909-b5ffe1-eca400-6c809a 
+        https://coolors.co/000000-5bc0eb-fde74c-9bc53d-c3423f 
+        
+        div {
+            background-color: grey;
+            border: 5px solid black;
+        }
+        
+                 
+        @media (max-width: 800px) {
+            .flex-container {
+                flex-direction: column;
+            } makes a one column layout instead of a two-column layout */
+
+
+            
