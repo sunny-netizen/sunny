@@ -6,8 +6,8 @@ html, body, h2 {
 
 body {
   font-family: "Muli";
-  color: #B5FFE1;
-  background-color: #2d9cad /*  ; #6C809A; #2D93AD;*/
+  color: #333333; /* #B5FFE1; */
+  background-color: #F4F4F4; /*  #2d9cad; #6C809A; #2D93AD;*/
 }
 
 h1 {
@@ -15,7 +15,7 @@ h1 {
 }
 
 h1, .legend, a, a:hover, a:visited { /* Change the link color */
-  color: #ecc100;
+  color: #007BFF; /* #ecc100; */
   font-weight: bolder;
 }
 
@@ -29,6 +29,7 @@ h3 {
 
 a { /* Change the link color */
   text-decoration: none; /* Remove underlines by default */
+  color: #FF4500;
   /*
           background-color: #090909;
           border-radius: 10px;
@@ -38,11 +39,12 @@ a { /* Change the link color */
 }
 
 a:hover { /* Change link color on hover */
-  text-decoration: underline;
+  text-decoration: none; 
+  color: #FF8C00;
 }
 
 hr {
-  border-color: #B5FFE1;
+  border-color: #CCCCCC; /* #B5FFE1; */
 }
 
 p {
@@ -83,7 +85,8 @@ header .contact {
 }
 
 header a {
-  font-size: xxx-large;
+  font-size: xx-large;
+  color: #73b4fa;
 }
 
 @media screen and (max-width: 1000px) {
